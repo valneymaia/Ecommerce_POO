@@ -157,15 +157,15 @@ public class Suporte {
         }
     }
     private void menu() {
-        System.out.println("""
-                \n1. Adicionar produto
-                2. Remover produto por nome
-                3. Remover todos os produtos
-                4. Alterar preço
-                5. Imprimir
-                6. Adicionar por txt.
-                7. Sair\s
-                """);
+        System.out.println(
+            "\n1. Adicionar produto\n" +
+            "2. Remover produto por nome\n" +
+            "3. Remover todos os produtos\n" +
+            "4. Alterar preço\n" +
+            "5. Imprimir\n" +
+            "6. Adicionar por txt.\n" +
+            "7. Sair"
+        );
     }
 
 }

@@ -76,7 +76,7 @@ public class Cliente {
             throws DuplicateProductInShoppingCartException, ProductNotFoundException {
 
         for(Produto produto : estoque) {
-           if(produto.getNome().strip().equalsIgnoreCase(nome)) {
+           if(produto.getNome().trim().equalsIgnoreCase(nome)) {
                if(this.carrinho.containsKey(produto)) {
                    throw new DuplicateProductInShoppingCartException("Produto já existe no carrinho.");
                }

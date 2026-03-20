@@ -38,7 +38,7 @@ public class Main{
                             System.out.print("Nome: [0] para finalizar ");
                             String nome = teclado.nextLine();
 
-                            if(nome.strip().equals("0"))
+                            if(nome.trim().equals("0"))
                                 break;
                             System.out.print("Quantidade: ");
                             quantidade = getInt();
@@ -124,17 +124,17 @@ public class Main{
 
 
     public static void menu() {
-        System.out.println("""
-                \n========= ECOMMERCE RV ==========
-                ======== MENU DE OPÇÕES =========
-                1. Comprar produto
-                2. Consultar Perfil
-                3. Assinar  vip
-                4. Cancelar vip
-                5. Modificar estoque(Suporte)
-                6. Sair
-                =================================\s
-                """);
+        System.out.println(
+            "\n========= ECOMMERCE RV ==========\n" +
+            "======== MENU DE OPÇÕES =========\n" +
+            "1. Comprar produto\n" +
+            "2. Consultar Perfil\n" +
+            "3. Assinar  vip\n" +
+            "4. Cancelar vip\n" +
+            "5. Modificar estoque(Suporte)\n" +
+            "6. Sair\n" +
+            "================================="
+        );
     }
 
 
