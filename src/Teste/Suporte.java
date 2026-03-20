@@ -119,7 +119,7 @@ public class Suporte {
                     String linha;
                     BufferedReader file;
                     try {
-                        file = new BufferedReader(new FileReader("src\\Dados\\produtos.csv"));
+                        file = new BufferedReader(new FileReader("src/Dados/produtos.csv"));
                     }
                     catch (FileNotFoundException ex) {
                         System.out.println(ex + "\nArquivo produtos.csv não encontrado. Verifique se o arquivo existe.");
